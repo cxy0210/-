@@ -1,0 +1,26 @@
+<view class="container">
+<navbar></navbar>
+  <view class="head">
+    <view class="head-l">
+      <image src="" mode="aspectFill "/>
+    </view>
+     <view class="head-c">
+      <text>jooee&jooni</text>
+    </view>
+    <view class="head-r">
+      <image src="../../images/xie.png" mode="aspectFill "/>
+      <text>关联手机号</text>
+    </view>
+  </view>
+  <view class="body">
+    <h3>服务进度</h3>
+    <view class="fa">
+     <image src="../../images/shenpi.png" mode="aspectFill "/>
+     <text>电子发票认证</text>
+    </view>
+    <view class="tu">
+     <image src="../../images/bg.png" mode="aspectFill "/>
+     <text>更多功能敬请期待~</text>
+    </view>
+  </view>
+</view>

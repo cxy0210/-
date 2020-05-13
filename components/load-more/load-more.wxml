@@ -1,0 +1,9 @@
+<view class="tips" hidden="{{length<=0}}">
+  <view wx:if="{{view}}">
+    <image src="/images/loading.gif" mode="aspectFill" class="loading"/>
+    <text>玩了命的加载中...</text>
+  </view>
+  <view wx:else>
+    <text class='txt'>没有更多内容了</text>
+  </view>
+</view>

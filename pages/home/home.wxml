@@ -1,0 +1,19 @@
+<view class="container">
+<navbar></navbar>
+  <view class="head">
+    <image src="../../images/home_bg.png" mode="aspectFill "/>
+  </view>
+  <view class="body">
+    <h3>发票专区</h3>
+    <view class="fa">
+     <image src="../../images/find.png" mode="aspectFill "/>
+      <navigator url="../code/code"> 
+     <text>电子发票</text>
+      </navigator>
+    </view>
+    <view class="tu">
+     <image src="../../images/bg.png" mode="aspectFill "/>
+     <text>更多功能敬请期待~</text>
+    </view>
+  </view>
+</view>

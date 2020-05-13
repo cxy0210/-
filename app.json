@@ -1,0 +1,68 @@
+{
+  "pages": [
+    
+    "pages/scan/scan",
+    "pages/billist/billist",
+    "pages/code/codesucess/codesucess",
+    "pages/elebill/billing/billing",
+    "pages/elebill/elebill",
+    "pages/elebill/newuser/newuser",
+    "pages/progress/review/review",
+    "pages/invoice/invoice",
+    "pages/binding/submit/submit",
+    "pages/bill/bill",
+    "pages/test/test",
+    "pages/binding/binding",
+    "pages/progress/progress",
+    "pages/elebill/add/add",
+    "pages/progress/failed/failed",
+    "pages/code/code",
+    "pages/home/home",
+    "pages/user/user",
+    "pages/progress/success/success"
+    
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#35495e",
+    "navigationBarTextStyle": "white",
+    "navigationStyle": "custom",
+    "navigationBarTitleText": "",
+    "backgroundColor": "#ccc",
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#35495e",
+    "borderStyle": "white",
+    "backgroundColor": "#f9f9f9",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home_active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "images/user.png",
+         "selectedIconPath": "images/user_active.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false,
+  "sitemapLocation": "sitemap.json",
+
+  "usingComponents":{
+    "product":"components/product/product",
+    "pull-down-loading":"components/pull-down-loading/pull-down-loading",
+    "load-more":"components/load-more/load-more",
+    "skeleton":"components/skeleton/skeleton"
+  }
+}

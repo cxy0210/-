@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.head{
+  height:208rpx;
+  text-align: center;
+}
+.head image{
+  
+  height: 208rpx;
+  width: 96.3%;
+}
+.body h3{
+  font-size: 36rpx;
+  line-height: 138rpx;
+  margin:32rpx 0 0 30rpx;
+  color:#333;
+}
+.body image{}
+.body .fa{
+  margin:38rpx 0 0 67rpx;
+  width:120rpx;
+  text-align: center;
+}
+.body .fa text{
+  font-size: 26rpx;
+  margin:44rpx 0 0 0rpx;
+  color:#333;
+  line-height: 118rpx;
+}
+.body .fa image{
+  margin:0 auto;
+  display: block;
+  width:62rpx;
+  height:62rpx;
+}
+.body .tu{
+  position:relative;
+  /* text-align: center; */
+  width:436rpx;
+  height:322rpx;
+  margin:0 auto;
+}
+.body .tu image{
+  width:100%;
+  height:100%;
+}
+.body .tu text{
+  position:absolute;
+  top:258rpx;
+  left:101rpx;
+  font-size: 28rpx;
+  color:#999;
+}

@@ -1,0 +1,6 @@
+<view class="tips">
+    <view>
+      <image src="/images/loading.gif" mode="aspectFill" class="loading"/>
+      <text class='txt'>刷新中...</text>
+    </view>
+  </view>

@@ -1,0 +1,42 @@
+<view class="container">
+<navbar></navbar>
+ <view class="top">
+  <view class="top-t">
+    <text>增值税电子普通发票</text>
+    <image src="../../images/zhang.png"></image>
+  </view>
+  <view class="top-b">
+    <view class="list"> <text class="l">账单年月</text> <text class="r">2020.01</text></view>
+    <view class="list"><text class="l">账单金额</text><text class="r">1888.88</text></view>
+    <view class="te"></view>
+    <view class="list"><text class="l">户号</text><text class="r">0000*0000</text></view>
+    <view class="list"><text class="l">名称</text><text class="r">上海道欣</text></view>
+    <view class="list"><text class="l">地址</text><text class="r">上海杨浦区</text></view>
+    <view class="list"><text class="l">统一社会信用代码</text><text class="r">320127891723478329</text></view>
+    <view class="list"><text class="l">开户行及账号</text><text class="r">农业银行 62291238913**223</text></view>
+   </view> 
+ </view>
+ <view class="bottom">
+  <text>*请您核对以上开票基本信息，若有误，可点击变更税号\n</text>
+  <text>*您将开具的是增值税普通发票，并非增值税专用发票</text>
+ </view>
+ <view class="an">
+  <button class="le">变更税号</button>
+  <button class="ri">去开票</button>
+ </view>
+ <view class="pic">
+  <image src="../../images/you.png"></image>
+ </view>
+ <view class="box" wx:if="{{show}}" catchtouchmove='false'></view>
+ <view class="tip" wx:if="{{show}}">
+      <image  bindtap="close" src="../../images/close2.png"></image>
+      <view class="tt">
+        <text>您将开具的是增值税普通发票 \n并非增值税专用发票</text>
+        <view class="an">
+          <button>取消</button><button class="back">确认开票</button>
+        </view>
+      </view>
+</view>
+ <view style="height:139rpx;"></view>
+</view>
+

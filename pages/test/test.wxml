@@ -1,0 +1,40 @@
+<view class="container">
+<navbar></navbar>
+  <view class="head" style=";">
+    <view class="head-t" >
+      <image src="../../images/home2.png" mode="aspectFill"/>
+      <text>02115845622</text>
+    </view>
+    <view class="head-c" >
+      <image src="../../images/info.png" mode="aspectFill"/>
+      <text>上海道欣信息技术有限公司</text>
+    </view>
+    <view class="head-b" >
+      <image src="../../images/ding.png" mode="aspectFill"/>
+      <text>上海市齐齐哈尔路928号印坊白玉兰</text>
+    </view>
+  </view>
+  <view class="center">
+    <view class="center-t">
+      <input placeholder="请输入手机号"></input>
+    </view>
+    <view class="center-b">
+      <input placeholder="请输入验证码"></input><button  bindtap="test">获取验证码</button>
+    </view>
+  </view>
+  <view class="foot">
+    <button>确认</button>
+  </view>
+  
+  <view class="box" wx:if="{{show}}"></view>
+<view class="tip" wx:if="{{show}}">
+      <image  bindtap="close" src="../../images/close2.png"></image>
+      <view class="tt">
+        <text>暂无税号信息\n请先进行企业信息认证</text>
+        <view class="an">
+          <button>去认证</button><button class="back">返回</button>
+        </view>
+        
+      </view>
+</view>
+</view>

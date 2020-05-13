@@ -1,0 +1,8 @@
+<view class="container">
+<navbar></navbar>
+  <text class="ti">您将开具的是增值税\n普通发票，并非增值税专用发票~</text>
+  <button>添加户号开票</button>
+  <text class="tx">*点击扫描账单图标，可直接扫描账单二维码开票</text>
+</view>
+
+

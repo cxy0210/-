@@ -1,0 +1,8 @@
+<view class="container">
+<navbar></navbar>
+  <image src="../../../images/yun_bg.png"></image>
+  <text>您将开具的是增值税普通发票\n并非增值税专用发票</text>
+  <button>新用户开票</button>
+</view>
+
+

@@ -1,0 +1,28 @@
+<view class="container">
+<navbar></navbar>
+  <view class="head">
+    <image src="../../../images/dui.png"></image>
+    <text class="ti">\n提交成功\n</text>
+    <text class="tx">温馨提示：您可在【发票专区】-【电子发票 认证进度查询】中查询进度</text>
+  </view>
+  <view class="foot">
+    <view class="foot-t">
+      <image src="../../../images/guanlian.png"></image>
+      <text>关联的公众号</text>
+    </view>
+    <view class="foot-b">
+      <view class="foot-l">
+       <image src="../../../images/gao.png"></image>
+    </view>
+    <view class="foot-c">
+      <text class="ti">国网上海电力\n</text>
+      <text class="tx">关注国网上海电力可实时接收企业认证审核消息</text>
+    </view>
+    <view class="foot-r">
+      <button>关注</button>
+    </view>
+    </view>
+    
+  </view>
+</view>
+

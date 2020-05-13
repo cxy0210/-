@@ -1,0 +1,23 @@
+<view class="container">
+<navbar></navbar>
+  <view class="head">
+    <image src="../../../images/dui.png"></image>
+    <text class="ti">\n增值税普通发票开票成功！\n</text> 
+  </view>
+  <view class="foot">
+    <button class="open">直接打开</button>
+    <button class="send">发送到邮箱</button>
+  </view>
+  <view class="box" wx:if="{{show}}" catchtouchmove='false'></view>
+ <view class="tip" wx:if="{{show}}">
+      <image  bindtap="close" src="../../../images/close2.png"></image>
+      <view class="tt">
+        <text>发送到邮箱</text>
+        <input placeholder="请输入邮箱地址"></input>
+        <view class="an">
+          <button>发送</button>
+        </view>
+      </view>
+</view>
+</view>
+

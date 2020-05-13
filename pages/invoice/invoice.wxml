@@ -1,0 +1,28 @@
+<view class="container">
+<navbar></navbar>
+  <view class="center">
+    <view class="center-t">
+      <input placeholder="请输入手机号"></input>
+      <image class='scan' bindtap='scanCode' src='../../images/sao.png' mode='widthFix'></image>
+    </view>
+    <view class="center-b">
+      <input placeholder="请输入验证码"></input><button  bindtap="test">获取验证码</button>
+    </view>
+  </view>
+  <view class="foot">
+    <button>确认</button>
+  </view>
+  <view class="text">
+    <text class="ti">温馨提示：\n</text>
+    <text class="tx">1.扫描纸质账单二维码，点击“下一步”可直接开具当月发票；\n</text>
+    <text class="tx">2.如您需要开具近12个月电子发票，请先绑定户号后开具；</text>
+  </view>
+  <view class="box" wx:if="{{show}}"></view>
+  <view class="tip" wx:if="{{show}}">
+      <image  bindtap="close" src="../../images/close2.png"></image>
+      <view class="tt">
+        <text>该户号尚未绑定\n请先绑定户号后再来开票</text>
+        <button>去绑定</button>
+      </view>
+    </view>
+</view>

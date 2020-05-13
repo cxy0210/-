@@ -1,0 +1,106 @@
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  box-sizing: border-box;
+  background:#f4f4f4;
+}
+.top{
+  width:92.59%;height:780rpx;margin:45rpx auto;
+  background:#fff;
+}
+.top .top-t{position: relative;text-align: center;}
+.top .top-t image{
+  position:absolute;
+  width:323rpx;height:158rpx;
+  top:35rpx;left:0;right:0;margin:0rpx auto;
+}
+.top .top-t text{
+  font:47rpx/225rpx '';
+  color:#FF9999;
+}
+.top .top-b .te{
+  margin:0 30rpx;
+  border-bottom:2rpx dashed rgba(224,224,224,1)
+}
+.top .top-b .list{overflow: hidden;}
+.top .top-b .list .l{
+  float:left;
+  margin-left:30rpx;
+  font:28rpx/76rpx '';
+  color:#888;
+}
+.top .top-b .list .r{
+  float:right;
+  margin-right:30rpx;
+  font:28rpx/76rpx '';
+  color:#101010;
+}
+.bottom{
+  margin:-10rpx 0 45rpx 40rpx;
+}
+.bottom text{
+  font:28rpx/32rpx '';
+  color:#888;
+}
+.an{
+  display: flex;
+  margin:0 40rpx;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.an button{
+  width:45%;height:80rpx; color:#fff;
+  font:42rpx/80rpx '';
+}
+button::after{ border: none; } 
+.an .le{ background:#F4CA1C;}
+.an .ri{background:#5EB7BE;}
+.box{
+  z-index:5;
+  position: fixed;
+  height:100%;
+  width:100%;
+  background:#000;
+  opacity: .5;
+  
+}
+.tip{
+  z-index:6;
+  left: 0;right:0;top:0;bottom:0;
+  margin: auto;
+  position:absolute;
+  background:#fff;
+  height:366rpx;
+  width:560rpx;
+  border-radius:12rpx;
+}
+.tip image{
+  position: fixed;
+  margin:-100rpx 0 0 500rpx ;
+  height:101rpx;
+  width:64rpx;
+  z-index:99;
+}
+.tip .tt{text-align: center;margin-top:60rpx;}
+.tip .tt text{
+  font-size:32rpx;
+  font-family:PingFang SC;
+  font-weight:100;
+  color:#101010;
+  line-height:60rpx;
+}
+.tip .tt .an{display: flex;justify-content: space-around;flex-direction: row;}
+.tip .tt .an button{
+  margin-top:55rpx;
+  width:220rpx;
+height:80rpx;
+background:rgba(94,183,190,1);
+border-radius:12rpx;
+  font-size:34rpx;
+font-family:PingFang SC;
+font-weight:500;
+color:rgba(255,255,255,1);
+line-height:80rpx;
+}
+.tip .tt .an .back{background:#F4CA1C;}

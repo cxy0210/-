@@ -1,0 +1,40 @@
+<view class="container">
+<navbar></navbar>
+  <view class="head" style=";">
+    <view class="head-t" >
+      <image src="../../images/home2.png" mode="aspectFill"/>
+      <text>02115845622</text>
+    </view>
+    <view class="head-c" >
+      <image src="../../images/info.png" mode="aspectFill"/>
+      <text>上海道欣信息技术有限公司</text>
+    </view>
+    <view class="head-b" >
+      <image src="../../images/ding.png" mode="aspectFill"/>
+      <text>上海市齐齐哈尔路928号印坊白玉兰</text>
+    </view>
+  </view>
+  <view class="center">
+    <text class="ti">上传企业营业执照</text>
+    <view class="pic" >
+      <text  bindtap='scanCode'>+</text>
+      <canvas canvas-id="attendCanvasId" style="width:83.33%;height:450rpx;position:absolute;left:0;top:0;" ></canvas>
+      <image src="{{attendSuccessImg}}"></image>
+    </view>
+    <text class="ti">单位名称</text><text class="tip">*请仔细核对信息是否准确无误</text>
+    <input placeholder="上海道欣信息技术有限公司"></input>
+    <text class="ti">统一社会信用代码</text><text class="tip">*请仔细核对信息是否准确无误</text>
+    <input placeholder="01C2345FG457872H"></input>
+    <text class="ti">手机号码</text>
+    <input placeholder="请输入手机号"></input>
+    <view class="yan">
+      <input placeholder="请输入验证码"></input>
+      <button>获取验证码</button>
+    </view>
+  </view>
+  <view class="foot">
+    <button>提交审核</button>
+  </view>
+  <view style="height:139rpx;"></view>
+</view>
+

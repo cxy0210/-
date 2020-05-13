@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.head{
+  width:79.444%;
+  margin:0 auto;
+  text-align: center;
+}
+.head image{
+  margin:120rpx 0 0rpx 0;
+  width:150rpx;
+  height:188rpx;
+}
+.head .ti{font:46rpx/126rpx '';color:#101010;}
+.head .tx{
+  font:32rpx/57rpx '';
+  color:#999;
+}
+.foot{
+  width:90.74%;
+  height:200rpx;
+  border:1rpx solid #999;
+  margin:73rpx auto 0;
+  border-radius:12rpx;
+}
+.foot .foot-t{overflow: hidden;}
+.foot .foot-t image{
+  float: left;
+  margin:24rpx 13rpx 0 34rpx;
+  width:30rpx;
+  height:30rpx;
+}
+.foot .foot-t text{
+  float: left;
+  color:#5EB7BF;
+  font:30rpx/86rpx '';
+}
+.foot .foot-b{overflow: hidden;position:relative;}
+.foot .foot-b .foot-l{
+  float: left;
+}
+.foot .foot-b .foot-l image{
+  margin:0rpx 10rpx 0 14rpx;
+  width:75rpx;
+  height:75rpx;
+}
+.foot .foot-b .foot-c{
+  float: left;
+}
+.foot .foot-b .foot-c .ti{
+  font:28rpx/48rpx '';
+  color:#101010;
+}
+.foot .foot-b .foot-c .tx{
+  font:24rpx/24rpx '';
+  color:#999;
+  font-family:PingFang SC;
+  font-weight:500;
+}
+.foot .foot-b .foot-r{
+  position:absolute;
+  top:0;right:25rpx;
+  width:130rpx;
+  height:54rpx;
+}
+.foot .foot-b .foot-r button{
+  font:32rpx/54rpx '';
+  color:#fff;
+  background:#5EB7BF;
+}

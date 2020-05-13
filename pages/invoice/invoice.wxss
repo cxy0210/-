@@ -1,0 +1,127 @@
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.center{}
+.center .center-t{
+  position: relative;
+  margin: 74rpx auto 40rpx;
+  width:93%;
+}
+.center .center-t image{
+  z-index:9;
+  position: absolute;
+  right:20rpx;
+  top:20rpx;
+  width:64rpx;
+  height:64rpx;
+}
+.center input{
+  padding-left:57rpx;
+  font-size:38rpx;
+  font-family:PingFang SC;
+  font-weight:500;
+  color:rgba(190,190,190,1);
+  line-height:72rpx;
+  height:100rpx;
+  background:rgba(244,244,244,1);
+  border-radius:12rpx;}
+.center .center-b{
+  margin:0 auto;
+  width:93%;
+  position:relative;
+}
+.center .center-b button{
+  height:100rpx;
+  z-index: 3;
+  font-size:38rpx;
+  font-family:PingFang SC;
+  font-weight:500;
+  color:rgba(255,255,255,1);
+  line-height:100rpx;
+  position:absolute;
+  background:#F4CA1C;
+  top:0rpx;
+  right:0rpx;
+}
+.foot{
+  width:93%;
+  height:100rpx;
+background:rgba(94,183,190,1);
+border-radius:12rpx;
+  margin:60rpx auto;
+}
+.foot button{
+  background:#5EB7BE;
+  font-size:44rpx;
+font-family:PingFang SC;
+font-weight:500;
+color:rgba(255,255,255,1);
+line-height:100rpx;
+}
+
+button::after{ border: none; } 
+.text{
+  padding:0 60rpx;
+}
+.text .ti{
+  font-size:32rpx;
+font-family:PingFang SC;
+font-weight:500;
+color:rgba(102,102,102,1);
+line-height:90rpx;
+}
+.text .tx{
+  font-size:22rpx;
+font-family:PingFang SC;
+font-weight:500;
+color:rgba(153,153,153,1);
+line-height:62rpx;
+}
+
+.box{
+  z-index:5;
+  position: fixed;
+  height:100%;
+  width:100%;
+  background:#000;
+  opacity: .5;
+}
+.tip{
+  z-index:6;
+  left: 0;right:0;top:0;bottom:0;
+  margin: auto;
+  position:absolute;
+  background:#fff;
+  height:496rpx;
+  width:600rpx;
+  border-radius:12rpx;
+}
+.tip image{
+  position: fixed;
+  margin:-100rpx 0 0 536rpx ;
+  height:101rpx;
+  width:64rpx;
+}
+.tip .tt{text-align: center;margin-top:100rpx;}
+.tip .tt text{
+  font-size:32rpx;
+  font-family:PingFang SC;
+  font-weight:100;
+  color:#101010;
+  line-height:60rpx;
+}
+.tip .tt button{
+  margin-top:65rpx;
+  width:300rpx;
+height:100rpx;
+background:rgba(94,183,190,1);
+border-radius:12rpx;
+  font-size:44rpx;
+font-family:PingFang SC;
+font-weight:500;
+color:rgba(255,255,255,1);
+line-height:100rpx;
+}

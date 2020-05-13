@@ -1,0 +1,21 @@
+<view class="container">
+<navbar></navbar>
+ <view class="head">
+  <text class="head-l">审核进度</text>
+  <text class="head-r">提交详情</text>
+ </view>
+ <view class="center">
+  <view class="center-a"><text class="te1">户号</text><text class="te">0000*0000</text></view>
+  <view class="center-a"><text class="te1">户名</text><text class="te">上海道欣</text></view>
+  <view class="center-a"><text class="te1">关联手机号</text><text class="te">18799966622</text></view>
+  <view class="center-a"><text class="te1">统一社会信息代码</text><text class="te">320127891723478329</text></view>
+  <view class="center-a"><text class="te1">单位名称</text><text class="te">上海道欣</text></view>
+  <view class="center-a"><text class="te1">提交时间</text><text class="te">2020/04/24 17:00:00</text></view>
+  <view class="center-a"><text class="te1">备注</text><text class="te">这是一个备注</text></view>
+ <image src="../../../images/f.png"></image>
+ </view>
+ <view class="foot">
+ <button>重新提交</button>
+ </view>
+</view>
+

@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  box-sizing: border-box;
+  text-align: center;
+}
+.ti{
+  margin-top:200rpx;
+  font:36rpx/62rpx '';
+  color:#101010;
+}
+button{
+  width:43.5%;
+  height:100rpx;
+  background:#5EB7BE;
+  font:36rpx/100rpx '';
+  color:#fff;
+  margin:60rpx auto;
+}
+.tx{
+  font:28rpx/62rpx '';
+  color:#999;
+}
+button::after{border:none;}

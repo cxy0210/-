@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  box-sizing: border-box;
+  text-align: center;
+}
+image{
+  width:58.24%;
+  height:463rpx;
+  margin:200rpx auto 0;
+}
+text{
+  font:32rpx/50rpx '';
+}
+button{
+  margin:30rpx auto;
+  width:327rpx;
+  height:84rpx;
+  background:#5EB7BE;
+  font:28rpx/84rpx '';
+  color:#fff;
+}

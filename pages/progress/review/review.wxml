@@ -1,0 +1,38 @@
+<view class="container">
+<navbar></navbar>
+ <view class="head">
+  <text id="head-l" bindtap='click' class="{{kk?'active':'noactive'}}">审核进度</text>
+  <text id="head-r" bindtap='click' class="{{tt?'active':'noactive'}}">提交详情</text>
+ </view>
+ <view class="center-l" hidden="{{tt}}">
+  <image src="../../../images/cc.png"></image>
+  <text class="ti">提交审核\n</text>
+  <text>2020/04/24 18:00:00</text>
+  <image src="../../../images/bb.png"></image>
+  <text class="ti">资料审核\n</text>
+  <text>审核结果：</text><text>审核通过\n</text>
+   <text>2020/04/24 18:00:00</text>
+  <image src="../../../images/aa.png"></image>
+  <text class="ti">业务办理\n</text>
+  <text>办理状态：</text><text>未开始\n</text>
+  <text>2020/04/24 18:00:00</text>
+ </view>
+
+<view class="center-r" hidden="{{kk}}" >
+  <view class="center-r-t">
+  <view class="center-a"><text class="te1">户号</text><text class="te">0000*0000</text></view>
+  <view class="center-a"><text class="te1">户名</text><text class="te">上海道欣</text></view>
+  <view class="center-a"><text class="te1">关联手机号</text><text class="te">18799966622</text></view>
+  <view class="center-a"><text class="te1">统一社会信息代码</text><text class="te">320127891723478329</text></view>
+  <view class="center-a"><text class="te1">单位名称</text><text class="te">上海道欣</text></view>
+  <view class="center-a"><text class="te1">提交时间</text><text class="te">2020/04/24 17:00:00</text></view>
+  <view class="center-a"><text class="te1">备注</text><text class="te">这是一个备注</text></view>
+ <image src="../../../images/f.png"></image>
+ </view>
+ <view class="center-r-b">
+ <button>重新提交</button>
+ </view>
+</view>
+
+</view>
+

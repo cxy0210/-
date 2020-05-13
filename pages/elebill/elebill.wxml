@@ -1,0 +1,33 @@
+<view class="container">
+<navbar></navbar>
+  <view class="top">
+    <image src="../../images/tongzhi.png"></image>
+    <text>您将开具的是增值税普通发票,并非增值税专用发票</text>
+  </view>
+  <view class="head" style="">
+    <view class="head-t" >
+      <image src="../../images/home2.png" mode="aspectFill"/>
+      <text>02115845622</text>
+    </view>
+    <view class="head-c" >
+      <image src="../../images/info.png" mode="aspectFill"/>
+      <text>上海道欣信息技术有限公司</text>
+    </view>
+    <view class="head-b" >
+      <image src="../../images/ding.png" mode="aspectFill"/>
+      <text>上海市齐齐哈尔路928号印坊白玉兰</text>
+    </view>
+  </view>
+  
+  <view class="center">
+    <button  bindtap="test">新用户开票</button>
+  </view>
+  <view class="foot">
+    <text class="te">温馨提示： \n</text>
+    <text>1.扫描纸质账单二维码，点击“去开票”可直接开具当月发票\n</text>
+    <text>2.如您通过“国网上海电力”微信公众号缴过费可开具缴费当月发票；\n</text>
+    <text>3.如您需要开具近12个月电子发票，请先绑定户号后开具；</text>
+  </view>
+</view>
+
+
